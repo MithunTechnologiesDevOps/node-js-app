@@ -23,7 +23,7 @@ spec:
         image: dockerhandson/node-web-app:1
         imagePullPolicy: Always
         imagePullSecrets:
-		    - name: privatereposecret
+        - name: privatereposecret
         ports:
         - containerPort: 8080
         livenessProbe:
